@@ -72,18 +72,4 @@ Es una aplicación, parte de la asignatura de PMDM, para gestionar reservas de p
 
 #### **Navegación**
 - **`nav_graph.xml`**:
-  - Configuración de la navegación entre fragmentos.
-
-### **7. Funcionalidades principales**
-
-1. **Añadir reservas**:
-   - Validación de datos obligatorios.
-   - Validación del número de teléfono (9 dígitos).
-   - Selección de fechas solo en fines de semana.
-
-2. **Enviar mensajes de WhatsApp**:
-   - Mensaje de confirmación con los detalles de la reserva.
-   - Uso de la API de WhatsApp para abrir la aplicación con un mensaje predefinido.
-
-3. **Persistencia de datos**:
-   - Uso de Room para almacenar las reservas localmente.
+  - Configuración de la navegación entre fragments.
