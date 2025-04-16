@@ -61,7 +61,7 @@ El `ReservaDao` es utilizado por el `ReservaRepository` para interactuar con la 
 - Factory para crear instancias de `ReservaViewModel`.
 - Necesaria para pasar parámetros personalizados como el repositorio.
 
-- #### **6. `ReservaAdapter`**
+### **6. ReservaAdapter**
 - Extiende `RecyclerView.Adapter` para mostrar la lista de reservas en un `RecyclerView`.
 - Se utiliza en el Homefragment que muestra la lista de reservas para proporcionar una experiencia de usuario fluida y eficiente.
 - Contiene la tabla de reservas.
