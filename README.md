@@ -1,6 +1,6 @@
 # Hipica
 
-E una aplicación, parte de la asignatura de PMDM, para gestionar reservas de paseos a caballo. Permite realizar, editar o eliminar reservas, seleccionar caballos, elegir horarios y enviar mensajes de confirmación a través de WhatsApp.
+Es una aplicación, parte de la asignatura de PMDM, para gestionar reservas de paseos a caballo. Permite realizar, editar o eliminar reservas, seleccionar caballos, elegir horarios y enviar mensajes de confirmación a través de WhatsApp.
 
 ## Estructura
 
