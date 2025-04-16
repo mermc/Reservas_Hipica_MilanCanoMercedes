@@ -57,19 +57,7 @@ Es una aplicación, parte de la asignatura de PMDM, para gestionar reservas de p
 #### **`ReservaDatabase`**
 - Base de datos local configurada con Room.
 - Contiene la tabla de reservas.
-
-### **6. Recursos**
-
-#### **Layouts**
-- **`activity_main.xml`**:
-  - Contiene el contenedor principal para los fragmentos.
-- **`fragment_add_reserva.xml`**:
-  - Diseño del formulario para añadir reservas.
-
-#### **Menus**
-- **`menu_add_reserva.xml`**:
-  - Menú con la opción para guardar una reserva.
-
-#### **Navegación**
-- **`nav_graph.xml`**:
-  - Configuración de la navegación entre fragments.
+#### **`ReservaDao`**
+- Es una interfaz que define las operaciones de acceso a la base de datos para la entidad `Reserva`.
+- Utiliza Room para realizar consultas, inserciones, actualizaciones y eliminaciones.
+El `ReservaDao` es utilizado por el `ReservaRepository` para interactuar con la base de datos de manera eficiente y segura.
