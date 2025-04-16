@@ -83,7 +83,7 @@ class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextLis
             }
         }
     }
-
+//buscamos la reserva en la base de datos con los datos de fecha y hora ya filtrados en el método onQueryTextChange
     private fun searchReserva(fecha: String, hora: String){
         val searchQuery = fecha
         val searchQuery2 = hora
@@ -96,7 +96,7 @@ class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextLis
     override fun onQueryTextSubmit(p0: String?): Boolean {
         return false
     }
-
+//filtramos la busqueda para que solo acepte el formato de fecha y hora generado por la app
     override fun onQueryTextChange(newText: String?): Boolean {
         if (newText != null){
             val regex = Regex("\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}")
